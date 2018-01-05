@@ -28,7 +28,7 @@ public class DomainApiController {
 	}
 	
 	/*@PostMapping("/domainApi/{url}/count/{count}")
-	public ResponseEntity<Void> registerStudentForCourse(
+	public ResponseEntity<Void> registerdomainApicount(
 			@PathVariable String url, int count, @RequestBody DomainURL doamin) {
 
 		domainApiService.addDomainUrlWithCount(url, count);
